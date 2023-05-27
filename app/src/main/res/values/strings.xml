@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Waifu Browser V2.1</string>
+    <string name="loading_please_wait">Loading... Please Wait.</string>
+    <string name="set_as_wallpaper">Set as wallpaper</string>
+    <string name="download_button">download_button</string>
+    <string name="save_image">save_image</string>
+    <string name="currently_viewing">Currently Viewing:</string>
+</resources>

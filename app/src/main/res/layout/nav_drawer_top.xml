@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:layout_height="250dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        app:srcCompat="@drawable/logo"
+        android:padding="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Waifu Browser"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:paddingStart="15dp"
+        android:textStyle="bold"
+
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Categories"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:paddingStart="15dp"
+        android:textStyle="bold"
+        />
+
+    <RadioGroup
+        android:id="@+id/rg_image_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="3dp"
+        android:orientation="horizontal"
+        android:background="@drawable/type_switch_background">
+
+        <RadioButton
+            android:id="@+id/rb_sfw"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="0.50"
+            android:button="@null"
+            android:text="SFW Images"
+            android:gravity="center"
+            android:checked="true"
+            android:background="@drawable/image_type_tab_selector"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <RadioButton
+            android:id="@+id/rb_nsfw"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="0.50"
+            android:button="@null"
+            android:checked="false"
+            android:text="NSFW Images"
+            android:gravity="center"
+            android:background="@drawable/image_type_tab_selector"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+
+
+    </RadioGroup>
+
+
+</LinearLayout>
