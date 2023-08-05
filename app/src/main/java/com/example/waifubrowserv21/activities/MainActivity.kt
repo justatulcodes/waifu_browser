@@ -30,8 +30,7 @@ class MainActivity : BaseActivity() {
     private var isImageTypeNSFW : Boolean = false
     private val imageList : ArrayList<ImageObj> = ArrayList()
 
-
-
+    @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
