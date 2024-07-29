@@ -13,10 +13,10 @@ object Constants {
     const val IDEAL_IMAGE_SIZE : Long = 10000000
 
     const val MULTIPLE_WAIFU_SFW_LINK =
-        "https://api.waifu.im/search?is_nsfw=false&orientation=PORTRAIT&gif=false&many=true&included_tags="
+        "https://api.waifu.im/search?is_nsfw=false&orientation=PORTRAIT&gif=false&limit=30&gif=false&included_tags="
 
     const val MULTIPLE_WAIFU_NSFW_LINK =
-        "https://api.waifu.im/search?is_nsfw=true&orientation=PORTRAIT&gif=false&many=true&included_tags="
+        "https://api.waifu.im/search?is_nsfw=true&orientation=PORTRAIT&gif=false&limit=30&gif=false&included_tags="
 
     val SFW_LINK_CATEGORY = arrayOf(
         "waifu", "maid", "marin-kitagawa", "mori-calliope", "raiden-shogun",
